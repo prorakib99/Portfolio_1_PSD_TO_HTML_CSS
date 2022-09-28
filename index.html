@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Font call via google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./CSS/style.css">
     <title>This is a PSD to HTML and CSS project</title>
 </head>
 <body>
-    <section>
-        <!--Header and Banner Section-->
-        <div class="header">
-            <div class="logo">
-                <a href="/"><img src="./images/site-logo.png" alt="Musicology Logo"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Promo</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="search">
-                <img src="./images/search-icon.png" alt="Search Image">
+    <section class="header">
+        <!--Header and Banner section-->
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="/"><img src="./images/site-logo.png" alt="Musicology Logo"></a>
+                </div>
+                <nav>
+                    <ul class="Navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <img src="./images/search-icon.png" alt="Search Image">
+                </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="bannar">
-            <h1>Tile Here</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam error debitis aut nemo. Dolor, tenetur.</p>
+    <section class="banner-section">
+        <div class="container">
+            <div class="bannar">
+                <h1>Title Here</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Ipsam error debitis aut <br> nemo. Dolor, tenetur.</p>
+                <button class="common-btn">Register Now</button>
+            </div>
         </div>
-        <button>Register Now</button>
     </section>
 
     <section>
@@ -89,7 +93,7 @@
                     <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
-                    <h4>Basic</h4>
+                    <h3>Basic</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     <p><span>$150.00</span></p>
                 </div>
@@ -100,7 +104,7 @@
                     <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
-                    <h4>Professional</h4>
+                    <h3>Professional</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     <p><span>$200.00</span></p>
                 </div>
@@ -111,7 +115,7 @@
                     <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
-                    <h4>Ultimate</h4>
+                    <h3>Ultimate</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     <p><span>$250.00</span></p>
                 </div>
@@ -128,7 +132,7 @@
                 <div class="grid-content">
                     <h2>Amazing Dance</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus quisquam accusamus hic eaque tenetur.</p>
-                    <button>Read More</button>
+                    <button class="common-btn">Read More</button>
                 </div>
             </div>
         <div class="dance-section">
@@ -136,7 +140,7 @@
                 <div class="grid-content">
                     <h2>Best Dance</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus quisquam accusamus hic eaque tenetur.</p>
-                    <button>Read More</button>
+                    <button class="common-btn">Read More</button>
                 </div>
                 <div class="grid-photo">
                     <img src="./images/dance-grid-2.jpg" alt="Dance Style photo">
@@ -171,7 +175,7 @@
     <section>
         <div class="herbert">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem illo assumenda. Illo, neque.</p>
-            <h4>Herbert Simon</h4>
+            <h5>Herbert Simon</h5>
         </div>
     </section>
 
@@ -202,7 +206,7 @@
             </div>
             <div class="footer-right">
                 <div class="footer-links">
-                    <h3>About</h3>
+                    <h4>About</h4>
                     <ul>
                         <li><a href="#">History</a></li>
                         <li><a href="#">Our Team</a></li>
@@ -213,7 +217,7 @@
                 </div>
             <div class="footer-right">
                 <div class="footer-links">
-                    <h3>Services</h3>
+                    <h4>Services</h4>
                     <ul>
                         <li><a href="#">How to Order</a></li>
                         <li><a href="#">Our Product</a></li>
@@ -224,7 +228,7 @@
                 </div>
             <div class="footer-right">
                 <div class="footer-links">
-                    <h3>About</h3>
+                    <h4>About</h4>
                     <ul>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Help</a></li>
