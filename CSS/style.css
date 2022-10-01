@@ -15,10 +15,10 @@
     --p-statics-size: 41.67px;
     --p-herbert-text: 
   }
-* {
+  * {
     padding: 0;
     margin: 0;
-    outline: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: var(--primary-text);
@@ -130,4 +130,8 @@ h5 {
 }
 .bannar button {
 
+}
+
+.dance-gallery {
+    
 }

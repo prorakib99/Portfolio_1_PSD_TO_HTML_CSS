@@ -8,9 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    
+    <!--Bootstrap CDN Call-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./CSS/style.css">
     <title>This is a PSD to HTML and CSS project</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
     <section class="header">
@@ -46,51 +49,53 @@
         </div>
     </section>
 
-    <section>
-        <div class="dance-tour">
+    <section id="dance">
+        <div class="row text-center dance-tour">
             <h2>Dance Tour</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis modi sed consequuntur quisquam sunt?</p>
-            <div class="dance-gallery">
-                <div class="dance-card">
+            <div class="dance-gallery d-flex">
+                <div class="col-md-4 dance-card">
                     <div class="card-img">
-                        <img src="./images/card1.jpg" alt="Dance Tour Image">
+                        <img class="img-fluid" src="./images/card1.jpg" alt="Dance Tour Image">
                     </div>
                     <div class="card-content">
                         <h3>America</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-            <div class="dance-gallery">
-                <div class="dance-card">
+                
+                <div class="col-md-4 dance-card">
                     <div class="card-img">
-                        <img src="./images/card2.jpg" alt="Dance Tour Image">
+                        <img class="img-fluid" src="./images/card2.jpg" alt="Dance Tour Image">
                     </div>
                     <div class="card-content">
                         <h3>America</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-            <div class="dance-gallery">
-                <div class="dance-card">
+                
+                <div class="col-md-4 dance-card">
                     <div class="card-img">
-                        <img src="./images/card3.jpg" alt="Dance Tour Image">
+                        <img class="img-fluid" src="./images/card3.jpg" alt="Dance Tour Image">
                     </div>
                     <div class="card-content">
                         <h3>America</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-            </div>
+            </div>   
         </div>
     </section>
 
     <section>
-        <div class="pricing">
-            <h2>Pricing</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestias veniam provident omnis similique?</p>
-            <div class="price-card">
+        <div class="row text-center d-flex pricing">
+            <div class="col-md-12">
+                <h2>Pricing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestias veniam provident omnis similique?</p>
+            </div>
+            <div class="col-md-4 price-card">
                 <div class="price-icon">
-                    <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
+                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
                     <h3>Basic</h3>
@@ -98,10 +103,9 @@
                     <p><span>$150.00</span></p>
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestias veniam provident omnis similique?</p>
-            <div class="price-card">
+            <div class="col-md-4 price-card">
                 <div class="price-icon">
-                    <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
+                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
                     <h3>Professional</h3>
@@ -109,10 +113,9 @@
                     <p><span>$200.00</span></p>
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestias veniam provident omnis similique?</p>
-            <div class="price-card">
+            <div class="col-md-4 price-card">
                 <div class="price-icon">
-                    <img src="./images/pricing-icon.png" alt="Pricing Icon Image">
+                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
                 </div>
                 <div class="pricing-content">
                     <h3>Ultimate</h3>
@@ -123,11 +126,11 @@
         </div>
     </section>
 
-    <section>
-        <div class="dance-section">
+    <section class="row d-flex">
+        <div class="col-md-6 dance-section">
             <div class="dance-grid">
                 <div class="grid-photo">
-                    <img src="./images/dance-grid-1.jpg" alt="Dance Style photo">
+                    <img class="img-fluid" src="./images/dance-grid-1.jpg" alt="Dance Style photo">
                 </div>
                 <div class="grid-content">
                     <h2>Amazing Dance</h2>
@@ -135,7 +138,8 @@
                     <button class="common-btn">Read More</button>
                 </div>
             </div>
-        <div class="dance-section">
+        </div>   
+        <div class="col-md-6 dance-section">
             <div class="dance-grid">
                 <div class="grid-content">
                     <h2>Best Dance</h2>
@@ -143,27 +147,31 @@
                     <button class="common-btn">Read More</button>
                 </div>
                 <div class="grid-photo">
-                    <img src="./images/dance-grid-2.jpg" alt="Dance Style photo">
+                    <img class="img-fluid" src="./images/dance-grid-2.jpg" alt="Dance Style photo">
                 </div>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="statistics">
-            <h2>Our Statistics</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ab! Neque excepturi inventore nulla.</p>
-            <div class="statis-section">
+        <div class="row text-center d-flex statistics">
+            <div class="col-md-12">
+                <h2>Our Statistics</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ab! Neque excepturi inventore nulla.</p>
+            </div>
+            <div class="col-md-4 statis-section">
                 <div class="statis-number">
                     <p class="st-num">1240+</p>
                     <p>Club</p>
                 </div>
-            <div class="statis-section">
+            </div>    
+            <div class="col-md-4 statis-section">
                 <div class="statis-number">
                     <p class="st-num">2000+</p>
                     <p>Active Member</p>
                 </div>
-            <div class="statis-section">
+            </div>    
+            <div class="col-md-4 statis-section">
                 <div class="statis-number">
                     <p class="st-num">1.000+</p>
                     <p>Community</p>
