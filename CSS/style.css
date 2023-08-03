@@ -53,7 +53,7 @@ nav a {
 
 /* Hero Section CSS */
 .hero {
-    background: url(./img/bannner.jpg);
+    background: url(../img/bannner.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -90,7 +90,7 @@ nav a {
 
 /* Dancer section CSS */
 .dancer {
-    background: url('./img/dancer-bg.jpg') no-repeat center center;
+    background: url('../img/dancer-bg.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
