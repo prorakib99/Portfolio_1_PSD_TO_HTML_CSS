@@ -2,249 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Font call via google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <!--Bootstrap CDN Call-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="./CSS/style.css">
-    <title>This is a PSD to HTML and CSS project</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>PSD to HTML & CSS</title>
+    <script src="https://kit.fontawesome.com/37b9e1bfc7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/">
 </head>
 <body>
-    <section class="header">
-        <!--Header and Banner section-->
+    <header>
         <div class="container">
-            <div class="header-main">
+            <div class="header">
                 <div class="logo">
-                    <a href="/"><img src="./images/site-logo.png" alt="Musicology Logo"></a>
+                    <img src="./img/logo.png" alt="Logo">
                 </div>
-                <nav>
-                    <ul class="Navigation">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Promo</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Promo</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="search">
-                    <img src="./images/search-icon.png" alt="Search Image">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="banner-section">
-        <div class="container">
-            <div class="bannar">
-                <h1>Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Ipsam error debitis aut <br> nemo. Dolor, tenetur.</p>
-                <button class="common-btn">Register Now</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="dance">
-        <div class="row text-center dance-tour">
-            <h2>Dance Tour</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis modi sed consequuntur quisquam sunt?</p>
-            <div class="dance-gallery d-flex">
-                <div class="col-md-4 dance-card">
-                    <div class="card-img">
-                        <img class="img-fluid" src="./images/card1.jpg" alt="Dance Tour Image">
-                    </div>
-                    <div class="card-content">
-                        <h3>America</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 dance-card">
-                    <div class="card-img">
-                        <img class="img-fluid" src="./images/card2.jpg" alt="Dance Tour Image">
-                    </div>
-                    <div class="card-content">
-                        <h3>America</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 dance-card">
-                    <div class="card-img">
-                        <img class="img-fluid" src="./images/card3.jpg" alt="Dance Tour Image">
-                    </div>
-                    <div class="card-content">
-                        <h3>America</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-            </div>   
-        </div>
-    </section>
-
-    <section>
-        <div class="row text-center d-flex pricing">
-            <div class="col-md-12">
-                <h2>Pricing</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestias veniam provident omnis similique?</p>
-            </div>
-            <div class="col-md-4 price-card">
-                <div class="price-icon">
-                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
-                </div>
-                <div class="pricing-content">
-                    <h3>Basic</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p><span>$150.00</span></p>
-                </div>
-            </div>
-            <div class="col-md-4 price-card">
-                <div class="price-icon">
-                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
-                </div>
-                <div class="pricing-content">
-                    <h3>Professional</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p><span>$200.00</span></p>
-                </div>
-            </div>
-            <div class="col-md-4 price-card">
-                <div class="price-icon">
-                    <img class="img-fluid" src="./images/pricing-icon.png" alt="Pricing Icon Image">
-                </div>
-                <div class="pricing-content">
-                    <h3>Ultimate</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                    <p><span>$250.00</span></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="row d-flex">
-        <div class="col-md-6 dance-section">
-            <div class="dance-grid">
-                <div class="grid-photo">
-                    <img class="img-fluid" src="./images/dance-grid-1.jpg" alt="Dance Style photo">
-                </div>
-                <div class="grid-content">
-                    <h2>Amazing Dance</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus quisquam accusamus hic eaque tenetur.</p>
-                    <button class="common-btn">Read More</button>
-                </div>
-            </div>
-        </div>   
-        <div class="col-md-6 dance-section">
-            <div class="dance-grid">
-                <div class="grid-content">
-                    <h2>Best Dance</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus quisquam accusamus hic eaque tenetur.</p>
-                    <button class="common-btn">Read More</button>
-                </div>
-                <div class="grid-photo">
-                    <img class="img-fluid" src="./images/dance-grid-2.jpg" alt="Dance Style photo">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="row text-center d-flex statistics">
-            <div class="col-md-12">
-                <h2>Our Statistics</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ab! Neque excepturi inventore nulla.</p>
-            </div>
-            <div class="col-md-4 statis-section">
-                <div class="statis-number">
-                    <p class="st-num">1240+</p>
-                    <p>Club</p>
-                </div>
-            </div>    
-            <div class="col-md-4 statis-section">
-                <div class="statis-number">
-                    <p class="st-num">2000+</p>
-                    <p>Active Member</p>
-                </div>
-            </div>    
-            <div class="col-md-4 statis-section">
-                <div class="statis-number">
-                    <p class="st-num">1.000+</p>
-                    <p>Community</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="herbert">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolorem illo assumenda. Illo, neque.</p>
-            <h5>Herbert Simon</h5>
-        </div>
-    </section>
-
-    <section>
-        <div class="subcribe">
-            <h2>Subcribe</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolore sequi possimus corrupti necessitatibus!</p>
-            <div class="sub-form">
-                <input type="email" name="Email" id="" placeholder="Your Email">
-                <input type="submit" value="Subscribe">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="footer">
-            <div class="footer-left">
-                <img src="./images/footer-logo.png" alt="Footer Logo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam vitae quibusdam repudiandae corporis repellat velit, enim magnam accusantium dignissimos qui mollitia atque? Laudantium.</p>
-                <div class="social-icon">
-                    <ul>
-                        <li><a href="#"><img src="./images/socal-icon_1" alt="Social Icons"></a></li>
-                        <li><a href="#"><img src="./images/socal-icon_2" alt="Social Icons"></a></li>
-                        <li><a href="#"><img src="./images/socal-icon_3" alt="Social Icons"></a></li>
-                        <li><a href="#"><img src="./images/socal-icon_4" alt="Social Icons"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-right">
-                <div class="footer-links">
-                    <h4>About</h4>
-                    <ul>
-                        <li><a href="#">History</a></li>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Barnd Guidelines</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            <div class="footer-right">
-                <div class="footer-links">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#">How to Order</a></li>
-                        <li><a href="#">Our Product</a></li>
-                        <li><a href="#">Order Status</a></li>
-                        <li><a href="#">Promo</a></li>
-                        <li><a href="#">Payment Method</a></li>
-                    </ul>
-                </div>
-            <div class="footer-right">
-                <div class="footer-links">
-                    <h4>About</h4>
-                    <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    </header>
 </body>
 </html>
